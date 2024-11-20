@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#features {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#features form {
+  width: 30%;
+  padding: 4rem;
+}
+
+#features form div {
+  display: flex;
+  flex-direction: column;
+}
+
+#features form input {
+  padding: 0.8rem;
+  outline: none;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+#features form button {
+  background-color: #968700;
+  outline: none;
+  padding: 0.8rem;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+#features h1 {
+  color: #968700;
+  padding: 1rem;
+  text-align: left;
+  font-size: 2rem;
+}
+
+#features a {
+  color: #968700;
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table thead tr {
+  background-color: #968700;
+  color: #ffffff;
+  width: 100%;
+  text-align: left;
+}
+
+table th,
+table td {
+  padding: 12px 15px;
+}
+table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+  border-bottom: 2px solid #968700;
+}
+
+table tbody tr.active-row {
+  font-weight: bold;
+  color: #968700;
+}
